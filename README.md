@@ -1,6 +1,16 @@
 # LLM Riddles
 
-仓库地址：
+# LLM Riddles是什么？
+
+LLM Riddles 是一个创新性的语言模型互动游戏，它通过与语言模型的交互挑战玩家的智慧和创造力。在这个游戏中，玩家需要设计问题，引导语言模型输出特定的答案。这不仅是一个娱乐项目，更是一个深入理解提示工程（prompt engineering）和自然语言处理（NLP）技术的绝佳机会。
+
+游戏的玩法包括多个章节和题目，每个题目都要求玩家构造一个问题，使得语言模型的回答符合特定的要求。例如，有的题目要求玩家构造一个问题，使模型的回答是一字不差的“1+1=3”，有的题目要求输入一个字的问题，使模型的回答在100个字以上，还有的题目要求提出一个字数是质数的问题，使回答的长度刚好是它的下一个质数。
+
+LLM Riddles 项目是开源的，支持多种语言模型，如ChatGPT、ChatGLM和Mistral-7B等，使用Python编程语言实现游戏逻辑和模型交互，依赖库包括但不限于`transformers`、`torch`等，用于模型加载和推理。游戏支持中文和英文，提供多个在线平台供用户直接体验，也可以进行本地部署。
+
+此外，LLM Riddles 还提供了一个iPhone应用，允许用户在没有互联网连接的情况下体验游戏，确保了隐私和即时响应。这个游戏不仅提供了娱乐，还帮助用户了解AI的能力，并且可以在保持数据在用户设备上的同时进行挑战和学习。
+
+GitHub仓库地址：
 
 ```
 https://github.com/opendilab/LLMRiddles
@@ -11,8 +21,6 @@ https://github.com/opendilab/LLMRiddles
 ```
 https://openxlab.org.cn/apps/detail/OpenDILab/LLMRiddlesChatGLMCN
 ```
-
-
 
 # 第一章 
 
